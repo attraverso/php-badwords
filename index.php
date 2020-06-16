@@ -4,6 +4,8 @@
 
 $sentence = 'Lorem ipsum dolor sit amet consectetur adipisicing elit Est obcaecati labore voluptates blanditiis sunt beatae voluptatibus ad quod quasi nam vitae debitis laborum, expedita voluptate voluptatem libero unde Animi accusamus';
 
+var_dump($sentence);
+
 $CHN_censorship_levels_of_nonsense = $_GET['badword'];
 
 $happy_censor = str_replace($CHN_censorship_levels_of_nonsense, '***', $sentence);
